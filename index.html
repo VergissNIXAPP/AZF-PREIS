@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AZF Login</title>
+  <link rel="stylesheet" href="form-style.css"/>
+  <script defer src="firebase-init.js"></script>
+  <script defer src="auth.js"></script>
+</head>
+<body>
+  <div class="form-container">
+    <h3>Login</h3>
+    <div class="form-group">
+      <label>Email</label>
+      <input type="text" id="email" />
+    </div>
+    <div class="form-group">
+      <label>Passwort</label>
+      <input type="password" id="password" />
+    </div>
+    <button onclick="login()">Login</button>
+  </div>
+</body>
+</html>
